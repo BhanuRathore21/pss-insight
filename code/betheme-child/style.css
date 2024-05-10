@@ -1,0 +1,70 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template: betheme
+Version: 2.0.1
+*/
+.foo_privacy ul li {
+    padding: 5px 10px !important;
+    border: 1px solid #fff !important;
+    display: inline-block;
+  }
+  .topbar {
+    background: #002f6e;
+  }
+  #Header .container {
+    padding-left: var(--mfn-column-gap-left);
+    padding-right: var(--mfn-column-gap-right);
+    box-sizing: border-box;
+  }
+  .topbar .container {
+    padding: 0 12px;
+  }
+  .language-select {
+    float: right;
+  }
+  .top-link {
+    float: right;
+  }
+  .top-link ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  .top-link ul li a {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    height: 45px;
+    text-decoration: none;
+  }
+  .top-link ul li:last-child {
+    margin: 0 0 0 10px;
+  }
+  .top-link ul li {
+    float: left;
+  }
+  #google_language_translator select.goog-te-combo {
+    background: #052147 url(images/lag-arrow.png) 100% 50% no-repeat !important;
+    border: none !important;
+    color: #fff !important;
+    height: 45px !important;
+    margin: 0px;
+    font-size: 16px;
+    padding: 10px 10px !important;
+    line-height: 25px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif !important;
+    width: 150px !important;
+    -webkit-box-shadow: none !important;
+    border-radius: 0px !important;
+  }
+  .language-select {
+    float: right;
+  }
+  div.skiptranslate.goog-te-gadget {
+    display: inline !important;
+  }
